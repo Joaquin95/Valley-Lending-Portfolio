@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+.valley-wrapper {
+  text-align: center;
+}
+
+.header {
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1e3a8a;
+}
+
+.nav a {
+  margin-left: 1rem;
+  color: #1e3a8a;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: #2563eb;
+}
+
+.hero {
+  background-color: #dbeafe;
+  padding: 4rem 2rem;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.btn-primary {
+  background-color: #1d4ed8;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #1e40af;
+}
+
+.about,
+.services,
+.apply-cta {
+  padding: 3rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.services {
+  background-color: #f9fafb;
+}
+
+.services h3,
+.about h3,
+.apply-cta h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.service-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.service-card {
+  background: white;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  border-radius: 8px;
+  flex: 1 1 200px;
+}
+
+.footer {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 2rem 1rem;
+}
