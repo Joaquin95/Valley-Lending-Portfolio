@@ -32,7 +32,7 @@ const ValleyLandingPage = () => {
       </section>
 
       <section id="services" className="services">
-        <h3>Our Services</h3>
+        <h3>My Services</h3>
         <div className="service-list">
           <div className="service-card">🏡 Home Purchase Loans</div>
           <div className="service-card">🔁 Refinance Options</div>
