@@ -46,7 +46,7 @@ const ValleyLandingPage = () => {
       </section>
 
       <footer id="contact" className="footer">
-        <p>📞 (123) 456-7890 | ✉️ info@valleylending.com</p>
+        <p>📞 (214) 518-1437 | ✉️ Joaquin@valleylending.com</p>
         <p>NMLS #226636 • © {new Date().getFullYear()} Valley Lending</p>
       </footer>
     </div>
