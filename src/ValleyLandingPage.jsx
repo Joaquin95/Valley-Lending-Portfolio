@@ -1,10 +1,9 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 
 const ValleyLandingPage = () => {
   return (
     <div className="valley-wrapper">
-
       <header className="header">
         <h1 className="logo">Valley Lending</h1>
         <nav className="nav">
@@ -19,15 +18,17 @@ const ValleyLandingPage = () => {
       <section id="home" className="hero">
         <h2>Your Trusted Mortgage Partner</h2>
         <p>Helping families achieve homeownership with confidence.</p>
-        <a href="#apply" className="btn-primary">Apply for a Loan</a>
+        <a href="#apply" className="btn-primary">
+          Apply for a Loan
+        </a>
       </section>
 
-   
       <section id="about" className="about">
         <h3>About Valley Lending</h3>
         <p>
-          I'm a licensed mortgage loan officer dedicated to guiding you through the home loan process.
-          Whether you're buying your first home or refinancing, I'm here to help make it smooth and stress-free.
+          I'm a licensed mortgage loan officer dedicated to guiding you through
+          the home loan process. Whether you're buying your first home or
+          refinancing, I'm here to help make it smooth and stress-free.
         </p>
       </section>
 
@@ -42,7 +43,9 @@ const ValleyLandingPage = () => {
 
       <section id="apply" className="apply-cta">
         <h3>Ready to get started?</h3>
-        <a href="/apply" className="btn-primary">Start Application</a>
+        <a href="https://2636235.my1003app.com/2266636/register?time=1729723484642" target="_blank" rel="noopener noreferrer" className="btn-primary">
+          Start Application
+        </a>
       </section>
 
       <footer id="contact" className="footer">
