@@ -10,7 +10,13 @@ const ValleyLandingPage = () => {
           <a href="#home">Home</a>
           <a href="#about">About</a>
           <a href="#services">Services</a>
-          <a href="https://2636235.my1003app.com/2266636/register?time=1729723484642" target="_blank" rel="noopener noreferrer">Apply</a>
+          <a
+            href="https://2636235.my1003app.com/2266636/register?time=1729723484642"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Apply
+          </a>
           <a href="#contact">Contact</a>
         </nav>
       </header>
@@ -18,7 +24,12 @@ const ValleyLandingPage = () => {
       <section id="home" className="hero">
         <h2>Your Trusted Mortgage Partner</h2>
         <p>Helping families achieve homeownership with confidence.</p>
-        <a href="https://2636235.my1003app.com/2266636/register?time=1729723484642" target="_blank" rel="noopener noreferrer" className="btn-primary">
+        <a
+          href="https://2636235.my1003app.com/2266636/register?time=1729723484642"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn-primary"
+        >
           Apply for a Loan
         </a>
       </section>
@@ -43,7 +54,12 @@ const ValleyLandingPage = () => {
 
       <section id="apply" className="apply-cta">
         <h3>Ready to get started?</h3>
-        <a href="https://2636235.my1003app.com/2266636/register?time=1729723484642" target="_blank" rel="noopener noreferrer" className="btn-primary">
+        <a
+          href="https://2636235.my1003app.com/2266636/register?time=1729723484642"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn-primary"
+        >
           Start Application
         </a>
       </section>
