@@ -1,11 +1,12 @@
 import React from "react";
+import logo from "./assets/Valley-Lending.jpg";
 import "./App.css";
 
 const ValleyLandingPage = () => {
   return (
     <div className="valley-wrapper">
       <header className="header">
-        <h1 className="logo">Valley Lending</h1>
+        <img src={logo} alt="Valley lending logo" className="Logo" />
         <nav className="nav">
           <a href="#home">Home</a>
           <a href="#about">About</a>
@@ -35,7 +36,7 @@ const ValleyLandingPage = () => {
       </section>
 
       <section id="about" className="about">
-        <h3>About Valley Lending</h3>
+        <h3>About Joaquin Morales</h3>
         <p>
           I'm a licensed mortgage loan officer dedicated to guiding you through
           the home loan process. Whether you're buying your first home or
