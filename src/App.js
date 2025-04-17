@@ -1,5 +1,5 @@
-import './App.css';
 import ValleyLandingPage from './ValleyLandingPage';
+import './App.css';
 
 function App() {
   return (
