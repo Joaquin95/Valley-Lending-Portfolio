@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "./assets/Valley-Lending.jpg";
+import loanProgramsImg from "./assets/Loan-Programs.jpg";
 import "./App.css";
 
 const ValleyLandingPage = () => {
@@ -25,6 +26,7 @@ const ValleyLandingPage = () => {
       <section id="home" className="hero">
         <h2>Your Trusted Mortgage Partner</h2>
         <p>Helping families achieve homeownership with confidence.</p>
+        <img src={loanProgramsImg} alt="Loan Programs" className="hero-image" />
         <a
           href="https://2636235.my1003app.com/2266636/register?time=1729723484642"
           target="_blank"
@@ -38,9 +40,10 @@ const ValleyLandingPage = () => {
       <section id="about" className="about">
         <h3>About Joaquin Morales</h3>
         <p>
-          I'm a licensed mortgage loan officer dedicated to guiding you through
-          the home loan process. Whether you're buying your first home or
-          refinancing, I'm here to help make it smooth and stress-free.
+          I'm a licensed mortgage loan officer based in Dallas, TX, committed to
+          guiding you through every step of the home loan process. Whether
+          you're a first-time homebuyer or looking to refinance, my goal is to
+          make the journey as smooth and stress-free as possible.
         </p>
       </section>
 
