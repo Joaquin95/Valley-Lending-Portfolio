@@ -13,7 +13,7 @@ const ValleyLandingPage = () => {
           <a href="#about">About</a>
           <a href="#services">Services</a>
           <a
-            href="https://2636235.my1003app.com/2266636/register?time=1729723484642"
+            href="https://valleylending.loanzify.io/register"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -28,7 +28,7 @@ const ValleyLandingPage = () => {
         <p>Helping families achieve homeownership with confidence.</p>
         <img src={loanProgramsImg} alt="Loan Programs" className="hero-image" />
         <a
-          href="https://2636235.my1003app.com/2266636/register?time=1729723484642"
+          href="https://valleylending.loanzify.io/register"
           target="_blank"
           rel="noopener noreferrer"
           className="btn-primary"
@@ -59,7 +59,7 @@ const ValleyLandingPage = () => {
       <section id="apply" className="apply-cta">
         <h3>Ready to get started?</h3>
         <a
-          href="https://2636235.my1003app.com/2266636/register?time=1729723484642"
+          href="https://valleylending.loanzify.io/register"
           target="_blank"
           rel="noopener noreferrer"
           className="btn-primary"
@@ -70,7 +70,7 @@ const ValleyLandingPage = () => {
 
       <footer id="contact" className="footer">
         <p>📞 (214) 518-1437 | ✉️ Joaquin@valleylending.com</p>
-        <p>NMLS #226636 • © {new Date().getFullYear()} Valley Lending</p>
+        <p>NMLS #2266636 • © {new Date().getFullYear()} Valley Lending</p>
       </footer>
     </div>
   );
