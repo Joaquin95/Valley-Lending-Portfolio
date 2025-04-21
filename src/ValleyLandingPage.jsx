@@ -25,7 +25,7 @@ const ValleyLandingPage = () => {
 
       <section id="home" className="hero">
         <h2>Your Trusted Mortgage Partner</h2>
-        <p>Helping families achieve homeownership with confidence.</p>
+        <p>Helping families achieve home-ownership with confidence.</p>
         <img src={loanProgramsImg} alt="Loan Programs" className="hero-image" />
         <a
           href="https://valleylending.loanzify.io/register"
@@ -42,7 +42,7 @@ const ValleyLandingPage = () => {
         <p>
           I'm a licensed mortgage loan officer based in Dallas, TX, committed to
           guiding you through every step of the home loan process. Whether
-          you're a first-time homebuyer or looking to refinance, my goal is to
+          you're a first-time home-buyer or looking to refinance, my goal is to
           make the journey as smooth and stress-free as possible.
         </p>
       </section>
