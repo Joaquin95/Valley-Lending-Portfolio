@@ -1,6 +1,9 @@
 import React from "react";
 import logo from "./assets/Valley-Lending.jpg";
 import loanProgramsImg from "./assets/Loan-Programs.jpg";
+import PurchaseImg from "./assets/Purchase102.jpg";
+import RefinanceImg from "./assets/Save101.jpg";
+import VAImg from "./assets/VA 101.jpg";
 import "./App.css";
 
 const ValleyLandingPage = () => {
@@ -50,9 +53,9 @@ const ValleyLandingPage = () => {
       <section id="services" className="services">
         <h3>My Services</h3>
         <div className="service-list">
-          <div className="service-card">🏡 Home Purchase Loans</div>
-          <div className="service-card">🔁 Refinance Options</div>
-          <div className="service-card">🛡️ FHA / VA / USDA Loans</div>
+          <div className="service-card"> <img src={PurchaseImg} alt="Home Purchase Loans" className="service-img" /> 🏡 Home Purchase Loans</div>
+          <div className="service-card"><img src={RefinanceImg} alt="Refinance Loans" className="service-img" /> 🔁 Refinance Options</div>
+          <div className="service-card"><img src={VAImg} alt="VA Loans" className="service-img" /> 🛡️ FHA / VA / USDA Loans</div>
         </div>
       </section>
 
