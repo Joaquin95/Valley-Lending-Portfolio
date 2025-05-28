@@ -41,7 +41,7 @@ const ValleyLandingPage = () => {
       </section>
 
       <section id="about" className="about">
-        <h3>About Joaquin Morales</h3>
+        <h3>About me</h3>
         <p>
           I'm a licensed mortgage loan officer based in Dallas, TX, committed to
           guiding you through every step of the home loan process. Whether
@@ -51,7 +51,7 @@ const ValleyLandingPage = () => {
       </section>
 
       <section id="services" className="services">
-        <h3>My Services</h3>
+        <h3>Our Products plus many more</h3>
         <div className="service-list">
           <div className="service-card"> <img src={PurchaseImg} alt="Home Purchase Loans" className="service-img" /> 🏡 Home Purchase Loans</div>
           <div className="service-card"><img src={RefinanceImg} alt="Refinance Loans" className="service-img" /> 🔁 Refinance Options</div>

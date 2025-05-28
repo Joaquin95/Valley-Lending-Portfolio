@@ -101,11 +101,25 @@ body {
 }
 
 .service-card {
-  background: white;
+   background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 1rem;
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
-  border-radius: 8px;
-  flex: 1 1 200px;
+  text-align: center;
+  width: 300px;
+  margin: 1rem;
+}
+
+.service-img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .footer {
