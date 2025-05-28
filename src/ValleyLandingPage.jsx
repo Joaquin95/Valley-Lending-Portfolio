@@ -43,7 +43,7 @@ const ValleyLandingPage = () => {
       <section id="about" className="about">
         <h3>About me</h3>
         <p>
-          I'm a licensed mortgage loan officer based in Dallas, TX, committed to
+          I'm a Licensed Mortgage Loan Officer based in Dallas, TX, committed to
           guiding you through every step of the home loan process. Whether
           you're a first-time home-buyer or looking to refinance, my goal is to
           make the journey as smooth and stress-free as possible.
