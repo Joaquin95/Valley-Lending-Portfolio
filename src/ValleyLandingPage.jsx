@@ -53,9 +53,9 @@ const ValleyLandingPage = () => {
       <section id="services" className="services">
         <h3>Our Products plus many more</h3>
         <div className="service-list">
-          <div className="service-card"> <img src={PurchaseImg} alt="Home Purchase Loans" className="service-img" /> 🏡 Home Purchase Loans</div>
-          <div className="service-card"><img src={RefinanceImg} alt="Refinance Loans" className="service-img" /> 🔁 Refinance Options</div>
-          <div className="service-card"><img src={VAImg} alt="VA Loans" className="service-img" /> 🛡️ FHA / VA / USDA Loans</div>
+          <div className="service-card"> <img src={PurchaseImg} alt="Home Purchase Loans" className="service-img" /> <a href="https://www.valleylending.com/home-purchase" target="blank_">🏡 Home Purchase Loans </a></div>
+          <div className="service-card"><img src={RefinanceImg} alt="Refinance Loans" className="service-img" /> <a href="https://www.valleylending.com/home-refinance" target="blank_"> 🔁 Refinance Options</a></div>
+          <div className="service-card"><img src={VAImg} alt="VA Loans" className="service-img" /> <a href="https://www.valleylending.com/loan-programs" target="blank_">🛡️ FHA / VA / USDA Loans </a></div>
         </div>
       </section>
 
